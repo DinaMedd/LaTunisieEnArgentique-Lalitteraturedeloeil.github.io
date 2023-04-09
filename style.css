@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&family=Dancing+Script:wght@500&display=swap');
+body {
+    font-family: 'Advent Pro', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style-type: none;
+}
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+/* ***************************** NAVBAR ***************************** */
+header nav {
+    overflow: hidden;
+    background-color: rgb(240, 229, 205);
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+}
+header li {
+    float: right;
+    font-size: 1.3em;
+}
+header li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 19px 16px;
+}
+#logo {
+    font-family: 'Dancing Script', cursive;    
+    font-weight: bold;
+    float: left;
+    font-size: 1.5em;
+}
+li a:hover{
+    background-color: rgb(172, 159, 132);
+}
+/* ***************************** Image Principale ***************************** */
+#imagePrincipale {
+    padding-top: 60px;
+    background: url(media/img358.jpg) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 799px;
+}
+h1 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color:rgb(36, 36, 63);
+    font-size: 6em;
+    margin-top: 30px;
+    text-shadow: 1px 3px 2px rgb(240, 229, 205);
+}
+#permierTrait {
+    height: 1px;
+    width: 40%;
+    margin: -45px auto;
+    background-color: rgb(36, 36, 63);
+    box-shadow: 1.5px 1.5px 1.5px rgb(240, 229, 205);
+}
+h3 {
+    text-align: center;
+    color: rgb(245, 235, 215);
+    font-size: 3em;
+    text-shadow: 2px 4px 3px rgb(36, 36, 63)
+}
+/* ***************************** Presentation ***************************** */
+#presentation {
+    background-color: rgb(255, 253, 250);
+    padding: 10px 0px 100px 0px;
+}
+#texteIntro {
+    padding: 0% 20%;
+    text-align: center;
+}
+#prestations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 20%;
+}
+.imagesPrestations h4 {
+    font-family: 'Dancing script', cursive;
+    text-align: center;
+    font-size: 1.8em;
+    margin: 15px;
+    font-weight: 600;
+}
+.imagesPrestations img {
+    border-radius: 10px;
+    box-shadow: 4px 7px 5px 4px rgb(201, 190, 166);
+}
+.imagesPrestations img:hover {
+    opacity: 0.5;
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}
+/* ***************************** Tourisme ***************************** */
+#Tourisme {
+    height: 2000px;
+    background-color: rgb(248, 252, 255);
+    padding: 1px 2%;
+}
+#Tourisme h2 {
+    padding-top: 60px;
+}
+#MédinadeTunis {
+    background: url(media/img284.jpg);
+}
+#Carthage {
+    background: url(media/img296.jpg);
+}
+#SidiBouSaïd {
+    background: url(media/img355.jpg);
+}
+#Marsa {
+    background: url(media/img214.jpg);
+}
+#Bizerte {
+    background: url(media/img498.jpg);
+}
+#Mehdia {
+    background: url(media/img832.jpg);
+}
+#tourisme li {
+    margin: 65px 00px 0 100px;
+    height: 226px;
+    width: 55%;
+    max-width: 550xp;
+    float: left;
+    box-shadow: 6px 6px 28px -1px rgb(201, 190, 166);
+}
+#Tourisme p {
+    height: 45px;
+    width: 280px;
+    background-color: antiquewhite;
+    float: left;
+    margin: 20px -1800px 0 0;
+    font-size: 1.2em;
+    text-align: center;
+    padding-top: 5px;
+    box-shadow: 4px 4px 0 1px rgb(201, 190, 166);
+}
+#Tourisme #Carthage, #tourisme #Marsa, #tourisme #Mehdia {
+    float:right
+}
+/* ***************************** Tourisme ***************************** */
+footer {
+    background-color: rgb(54, 54, 78);
+    color: rgb(238, 200, 151);
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+form {
+    margin: 0 auto;
+    max-width: 900px;
+}
+input, textarea, button {
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1.2em;
+    font-family: 'Advent Pro', sans-serif;
+    border-radius: 8px;
+}
+textarea {
+    height: 120px;
+}
+button {
+    font-size: 1.5em;
+    background-color: rgb(240, 229, 205);
+}
+button:hover {
+    background-color: rgb(172, 159, 132);
+    color: rgb(240, 229, 205);
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
+}
+#deuxiemeTrait {
+    height: 1px;
+    width: 75%;
+    background-color: rgb(240, 229, 205);
+    margin: 60px auto;
+}
+#copyrightEtIcons {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 2.5%;
+}
+#copyright {
+    width: 50%;
+    text-align: left;
+    color: rgb(240, 229, 205);
+}
+#icons {
+    width: 50%;
+    text-align: left;
+}
+#icons a {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 1.3em;
+    color: rgb(240, 229, 205);
+}
+#icons a:hover {
+    transform: scale(1.5);
+    transition: 0.1s;
+}
